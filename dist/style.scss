@@ -5,6 +5,8 @@
 /***********************************
     VARIABLES
  ***********************************/
+// AWESOME FONTS
+$fa-font-path:        "./assets/webfonts";
 // COLOURS
 $white: #ffF;
 $cyan: hsl(185, 75%, 39%) ;
@@ -75,11 +77,11 @@ body {
 
   @include media(">tablet") {
     width: 25vw;
-    min-height: 50vh;
+    min-height: 60vh;
   }
   @include media("<=tablet") {
     width: 65vw;
-    min-height: 60vh;
+    min-height: 70vh;
   }
 
   &__header {
